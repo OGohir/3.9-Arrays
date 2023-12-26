@@ -1,0 +1,16 @@
+class Primes
+{
+  public static void main(String[] args)
+  {
+    int[] primes = {2, 3, 5, 7, 11};
+
+    int length = primes.length;
+
+    int i=0;
+    while (i < length)
+    {
+      System.out.println(primes[i]);
+      i += 1;
+    }
+  }
+}

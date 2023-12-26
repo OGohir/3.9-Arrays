@@ -1,0 +1,11 @@
+class Groceries
+{
+  public static void main(String[] args)
+  {
+    String[] shopping = {"milk", "eggs", "butter"};
+
+    System.out.println(shopping[0]);
+    System.out.println(shopping[1]);
+    System.out.println(shopping[2]);
+  }
+}

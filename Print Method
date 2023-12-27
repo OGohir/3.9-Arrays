@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Print{
+    public static void print()
+    {
+        String[] words = {"I", "am", "a", "list"};
+        
+        System.out.println(words[0]);
+        System.out.println(words[1]);
+        System.out.println(words[2]);
+        System.out.println(words[3]);
+    }
+}

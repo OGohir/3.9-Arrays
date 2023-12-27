@@ -1,0 +1,18 @@
+public class Fives
+{
+    public static void main(String[] args)
+    {
+        int[] fives = new int[5];
+        
+        int length = fives.length;
+        
+        int i = 0;
+        while (i < length)
+        {
+            fives[i] = i * 5;
+            
+            System.out.println(fives[i]);
+            i += 1;
+        }
+    }
+}
